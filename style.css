@@ -4,6 +4,13 @@
     padding: 10px;
     background-color: dodgerblue;
     color: white;
+    
+}
+header
+{
+   background-image: url("photo1.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 
