@@ -6,11 +6,21 @@
     color: white;
     
 }
-header
+figure
 {
-   background-image: url("photo1.jpg");
+   
    background-repeat: no-repeat;
-   background-position: center;
+   
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 700px;
+  
+  
+  
+ 
+  
+   
 }
 
 
