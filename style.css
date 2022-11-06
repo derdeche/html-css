@@ -2,9 +2,7 @@
  {
     text-align: center;
     padding: 10px;
-    background-color: dodgerblue;
-    
-    
+    background-color: dodgerblue;  
     color: white
     
     
@@ -29,10 +27,13 @@ article
    width: 400px;   
    margin-left: 550px;   
    text-align: justify;
+   
 }
 ul
 {
-   margin-left: 400px;
+   margin-left: 400px;   
+   color: white;
+   list-style-type: none;
 
 }
 
