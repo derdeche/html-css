@@ -3,17 +3,43 @@
     text-align: center;
     padding: 10px;
     background-color: dodgerblue;
-    color: white;
+    
+    color: white
+    
+    
+    
     
 }
 figure
-{      background-repeat: no-repeat;
+{     
    
    margin-right: auto;
    margin-left: auto;
-   display: block;
-   width: 700px;
+   
+  width: 700px;
+   
+   
 }
+article
+{ 
+   width: 600px;
+   
+   margin-left: 500px;
+   margin-right: 500px;
+}
+ul
+{
+   margin-left: 400px;
+
+}
+
+
+
+
+
+
+
+
 
 
 
