@@ -1,23 +1,28 @@
 #pinaise
- {
+{
     text-align: center;
     padding: 10px;
     background-color: dodgerblue;  
-    color: white
-    
-    
-    
-    
+    color: whit; 
+    margin:auto;  
+}
+body
+{
+   background-color: yellow;
+   
+}
+#wrapper
+{
+   max-width: 1024px;
+   margin: 0px auto;
+   background-color: white;
 }
 figure
 {     
    
    margin-right: auto;
    margin-left: auto;
-   
-  width: 700px;
-   
-   
+      width: 700px;    
 }
 h1{
    color: yellow;
@@ -26,15 +31,14 @@ article
 { 
    width: 400px;   
    margin-left: 550px;   
-   text-align: justify;
-   
+   text-align: justify;   
 }
 ul
 {
    margin-left: 400px;   
    color: white;
    list-style-type: none;
-
+   background-color: dodgerblue;
 }
 aside p
 {
