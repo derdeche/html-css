@@ -1,4 +1,4 @@
-*{
+*{font-family: Arial, Helvetica, sans-serif;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -55,6 +55,7 @@ main article
 main article p
 {
    margin-block-start: 15px;
+   
 }
 
 article p
@@ -84,7 +85,7 @@ ul a
 
 nav
 {
-   padding: 10px;
+   padding: 10px 0 10px 10px;
    
 }
 
