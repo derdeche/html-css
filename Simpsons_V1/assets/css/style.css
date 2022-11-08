@@ -39,23 +39,22 @@ h1{
 main
 {
    display: flex;
-   
+   padding: 10px;
 }
 main article   
 {
    margin-block-start: 40px;
+   width: 100%;
 }
 main article p
 {
    margin-block-start: 15px;
 }
 article p
-{ 
-   width: 775px;  
+{   
 
    text-align: justify; 
-   margin-left: 5px;  
-   margin-right: 5px;
+   margin: 0 5px;  
 }
 ul
 {
@@ -74,21 +73,27 @@ ul a
 aside figure img 
 {
    width: 120px; 
+   border: 2px solid rgb(235,235,235);
+   margin: auto;
+
 }
 
 aside{
    background-color: dodgerblue;
   
-   margin-block-start: 15px;
-   margin-block-end: 15px;
+   margin: 15px 0;
    
    
    
+   padding: 10px;
    
 }
 aside figure
 {
-   margin-right: 3px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
 }
 aside p 
 {
