@@ -30,7 +30,7 @@ header figure img
 }
 h1{
    color: rgb(255, 213, 0);
-
+   margin-left: 5px;
 }
 
 #middle{
@@ -41,18 +41,28 @@ main
    display: flex;
    
 }
+main article   
+{
+   margin-block-start: 40px;
+}
+main article p
+{
+   margin-block-start: 15px;
+}
 article p
 { 
-   width: 500px;  
+   width: 775px;  
 
-   text-align: justify;   
+   text-align: justify; 
+   margin-left: 5px;  
+   margin-right: 5px;
 }
 ul
 {
-   margin-left: auto; 
-   margin-right: auto;  
+   margin-left: 5px; 
    list-style-type: none;
    background-color: dodgerblue;
+   margin-block-start: 15px;
 }
 ul a
 {
@@ -68,12 +78,17 @@ aside figure img
 
 aside{
    background-color: dodgerblue;
-   margin-right: 3px; 
-   margin-left: 3px;
+  
    margin-block-start: 15px;
    margin-block-end: 15px;
    
    
+   
+   
+}
+aside figure
+{
+   margin-right: 3px;
 }
 aside p 
 {
