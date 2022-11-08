@@ -18,16 +18,19 @@ body
    background-color: rgb(255, 213, 0);
    
 }
+
 #wrapper
 {
    max-width: 1024px;
    margin: 0px auto;
    background-color: white;
 }
+
 header figure img
 {     
    width: 100%;    
 }
+
 h1{
    color: rgb(255, 213, 0);
    margin-left: 5px;
@@ -36,32 +39,43 @@ h1{
 #middle{
    display: flex;
 }
+
 main
 {
    display: flex;
    padding: 10px;
 }
+
 main article   
 {
    margin-block-start: 40px;
    width: 100%;
 }
+
 main article p
 {
    margin-block-start: 15px;
 }
+
 article p
 {   
 
    text-align: justify; 
    margin: 0 5px;  
+   
 }
+
 ul
 {
-   margin-left: 5px; 
+   
    list-style-type: none;
    background-color: dodgerblue;
-   margin-block-start: 15px;
+   margin-block-start: 20px ;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   text-align: center; 
+   
 }
 ul a
 {
@@ -69,6 +83,10 @@ ul a
    text-decoration: none;
 }
 
+nav
+{
+   padding: 10px;
+}
 
 aside figure img 
 {
@@ -83,11 +101,10 @@ aside{
   
    margin: 15px 0;
    
-   
-   
-   padding: 10px;
+   padding: 10px;  
    
 }
+
 aside figure
 {
    display: flex;
