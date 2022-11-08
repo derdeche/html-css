@@ -1,0 +1,81 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#pinaise
+{
+    text-align: center;
+    padding: 10px;
+    background-color: dodgerblue;  
+    color: white; 
+     
+}
+
+body
+{
+   background-color: yellow;
+   
+}
+#wrapper
+{
+   max-width: 1024px;
+   margin: 0px auto;
+   background-color: white;
+}
+header figure img
+{     
+   width: 100%;    
+}
+h1{
+   color: yellow;
+
+}
+article p
+{ 
+   width:500px;  
+
+   text-align: justify;   
+}
+ul
+{
+   margin-left: auto; 
+   margin-right: auto;  
+   color: white;
+   list-style-type: none;
+   background-color: dodgerblue;
+}
+aside p
+{
+   text-align: justify;
+   width: 220px;
+}
+aside figure img 
+{
+   width: 180px;   
+}
+
+figcaption
+{
+   text-align: center;
+}
+  
+footer
+{
+   text-align: center;
+   background-color: rgb(37, 140, 243);
+   color: white;
+   padding: 10px;
+   width:100%;
+}
+
+
+
+
+
+
+
+
+
+
