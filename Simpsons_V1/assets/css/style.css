@@ -15,7 +15,7 @@
 
 body
 {
-   background-color: yellow;
+   background-color: rgb(255, 213, 0);
    
 }
 #wrapper
@@ -29,12 +29,21 @@ header figure img
    width: 100%;    
 }
 h1{
-   color: yellow;
+   color: rgb(255, 213, 0);
 
+}
+
+#middle{
+   display: flex;
+}
+main
+{
+   display: flex;
+   
 }
 article p
 { 
-   width:500px;  
+   width: 500px;  
 
    text-align: justify;   
 }
@@ -50,24 +59,32 @@ ul a
    color: white;
    text-decoration: none;
 }
-main article h1 
-{
-margin-left: 200px;
-}
 
-aside p
-{
-   text-align: justify;
-   width: 220px;
-}
+
 aside figure img 
 {
-   width: 180px;   
+   width: 120px; 
 }
 
+aside{
+   background-color: dodgerblue;
+   margin-right: 3px; 
+   margin-left: 3px;
+   margin-block-start: 15px;
+   margin-block-end: 15px;
+   
+   
+}
+aside p 
+{
+   text-align: justify;
+   width: 140px;
+   color: white;
+}
 figcaption
 {
    text-align: center;
+   color: white;
 }
   
 footer
@@ -76,7 +93,6 @@ footer
    background-color: rgb(37, 140, 243);
    color: white;
    padding: 10px;
-   
 }
 
 
